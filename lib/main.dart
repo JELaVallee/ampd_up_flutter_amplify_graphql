@@ -9,12 +9,6 @@ import './models/todo.dart';
 import './views/list_todos_view.dart';
 import './views/add_todo_view.dart';
 
-// TODO: Where is this being used?
-// Random Number Utility
-import 'dart:math';
-
-Random randomNumber = new Random();
-
 void main() {
   runApp(TodoApp());
 }
