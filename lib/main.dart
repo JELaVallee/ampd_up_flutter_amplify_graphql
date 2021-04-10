@@ -108,10 +108,31 @@ class TodoListState extends State<TodoWidget> {
   }
 
   void _addTodoItem(Todo todo) async {
-    setState(() {
-      todoItems.add(todo);
-    });
-    _updateTodoList();
+    try {
+      String gqlMutation =
+          '''mutation CreateTodo(\$name: String!, \$completed: Boolean!){
+            createTodo(input: {name: \$name, completed: \$completed}){
+              id
+              name
+              completed
+            }
+          }''';
+
+      var gqlRequest =
+          GraphQLRequest<String>(document: gqlMutation, variables: {
+        "name": todo.name,
+        "completed": todo.isCompleted,
+      });
+
+      var operation = Amplify.API.mutate(request: gqlRequest);
+      var response = await operation.response;
+      var data = response.data;
+
+      print('Mutation result: ' + data);
+      _updateTodoList();
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _updateTodoItem(Todo todo) async {
