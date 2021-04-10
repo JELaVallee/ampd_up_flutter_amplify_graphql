@@ -44,6 +44,21 @@ class TodoListState extends State<TodoWidget> {
   @override
   void initState() {
     super.initState();
+    _initAmplify();
+  }
+
+  // Amplify session initializer
+  void _initAmplify() async {
+    // Add API Plugin
+    Amplify.addPlugin(AmplifyAPI());
+
+    // Configure Amplify SDK
+    try {
+      await Amplify.configure(amplifyconfig);
+      print("Amplify successfully configured!!!");
+    } on AmplifyAlreadyConfiguredException {
+      print("Tried to reconfigure Amplify; Something failed...");
+    }
   }
 
   // Callbacks
