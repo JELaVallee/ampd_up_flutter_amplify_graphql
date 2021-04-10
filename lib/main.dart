@@ -164,10 +164,27 @@ class TodoListState extends State<TodoWidget> {
   }
 
   void _deleteTodoItem(Todo todo) async {
-    setState(() {
-      todoItems.remove(todo);
-    });
-    _updateTodoList();
+    try {
+      String gqlMutation = '''mutation DeleteTodo(\$id: ID!){
+        deleteTodo(input: {id: \$id}){
+          id
+        }
+      }''';
+
+      var gqlRequest =
+          GraphQLRequest<String>(document: gqlMutation, variables: {
+        "id": todo.id,
+      });
+
+      var operation = Amplify.API.mutate(request: gqlRequest);
+      var response = await operation.response;
+      var data = response.data;
+
+      print('Mutation result: ' + data);
+      _updateTodoList();
+    } catch (e) {
+      print(e);
+    }
   }
 
   @override
