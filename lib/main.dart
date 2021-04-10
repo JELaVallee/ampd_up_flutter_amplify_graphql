@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 
 // Amplify packages
@@ -33,13 +35,7 @@ class TodoWidget extends StatefulWidget {
 }
 
 class TodoListState extends State<TodoWidget> {
-  List<Todo> todoItems = [
-    new Todo('1', 'This is ToDo Item 1... exciting!', false),
-    new Todo('2', 'This is ToDo Item 2... exilirating!', false),
-    new Todo('3', 'This is ToDo Item 3... amazing!', false),
-    new Todo('4', 'This is ToDo Item 4... fantastic!', false),
-    new Todo('5', 'This is ToDo Item 5... spectacular!', false),
-  ];
+  List<Todo> todoItems = [];
 
   @override
   void initState() {
@@ -56,6 +52,7 @@ class TodoListState extends State<TodoWidget> {
     try {
       await Amplify.configure(amplifyconfig);
       print("Amplify successfully configured!!!");
+      _updateTodoList();
     } on AmplifyAlreadyConfiguredException {
       print("Tried to reconfigure Amplify; Something failed...");
     }
@@ -78,7 +75,36 @@ class TodoListState extends State<TodoWidget> {
 
   // Service Handlers
   void _updateTodoList() async {
-    return;
+    try {
+      String gqlQuery = '''query{
+        listTodos{
+          items {
+            id
+            name
+            completed
+          }
+        }
+      }''';
+
+      var operation = Amplify.API
+          .query(request: GraphQLRequest<String>(document: gqlQuery));
+
+      var response = await operation.response;
+      var data = response.data;
+      Map<String, dynamic> listTodos = jsonDecode(data);
+      List<dynamic> todoResponseItems =
+          listTodos['listTodos']['items'];
+      List<Todo> todoItemsList = [];
+      todoResponseItems.forEach((item) {
+        print('Loaded Item: ' + item.toString());
+        todoItemsList.add(Todo(item['id'], item['name'], item['completed']));
+      });
+      setState(() {
+        todoItems = todoItemsList;
+      });
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _addTodoItem(Todo todo) async {
