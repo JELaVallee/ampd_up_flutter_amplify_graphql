@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+// Amplify packages
+import 'package:amplify_flutter/amplify.dart';
+import 'package:amplify_api/amplify_api.dart';
+
+// Amplify configuration
+import 'amplifyconfiguration.dart';
+
 // Models
 import './models/todo.dart';
 
