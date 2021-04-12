@@ -281,7 +281,7 @@ import 'amplifyconfiguration.dart';
 ```
 
 #### Service call to delete a ToDo:
-**In file [/lib/main.dart : ]() :**
+**In file [/lib/main.dart : ](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L166-L188) :**
 
 ```dart
 ...
@@ -289,7 +289,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjc2NTEyMyw1NTQyMzkxMSwyMDg4Mz
+eyJoaXN0b3J5IjpbLTczMjA0MDk5Myw1NTQyMzkxMSwyMDg4Mz
 IwODgsLTQxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwt
 NTE5MjY0MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
 -->
