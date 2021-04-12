@@ -143,6 +143,44 @@ mutation{
 https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eadae8e1e83ee07696410d124bb21ff/lib/main.dart#L5-L10
 
 #### Service call to query a list the ToDo's:
+[/lib/main.dart : L77-L10](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L77-L108)
+
+```dart
+  void _updateTodoList() async {
+    try {
+      String gqlQuery = '''query{
+        listTodos{
+          items {
+            id
+            name
+            completed
+          }
+        }
+      }''';
+
+
+      var operation = Amplify.API
+          .query(request: GraphQLRequest<String>(document: gqlQuery));
+
+
+      var response = await operation.response;
+      var data = response.data;
+      Map<String, dynamic> listTodos = jsonDecode(data);
+      List<dynamic> todoResponseItems =
+          listTodos['listTodos']['items'];
+      List<Todo> todoItemsList = [];
+      todoResponseItems.forEach((item) {
+        print('Loaded Item: ' + item.toString());
+        todoItemsList.add(Todo(item['id'], item['name'], item['completed']));
+      });
+      setState(() {
+        todoItems = todoItemsList;
+      });
+    } catch (e) {
+      print(e);
+    }
+  }
+```
 
 #### Service call to create a new ToDo:
 
@@ -152,6 +190,7 @@ https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eada
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3ODI1NTkwLDEyMDIzNjIyOTAsLTUxOT
-I2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbNjU3MDgyNTU4LDcyNzgyNTU5MCwxMjAyMz
+YyMjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5
+XX0=
 -->
