@@ -1,7 +1,7 @@
-# Overview
+# Welcome to Amp'd Up Flutt
 
 
-## 1. Pre-Reqs: Set The Stage
+## 1. Pre-Requisites: Setting The Stage
 1. Overview of Amplify-CLI Installation
 1. Overview of the Boring ToDo Flutter App
 1. Demo the Boring ToDo Flutter App 
@@ -140,10 +140,11 @@ https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eada
 
 #### Service call to create a new ToDo:
 
+
 #### Service call to mutate a ToDo:
 
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbMjA2ODg5OTI5NywtMTg1NzA3Njg2OV19
 -->
