@@ -201,14 +201,14 @@ import 'amplifyconfiguration.dart';
 ```
 
 #### Service call to create a new ToDo:
-
+https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L110-L136
 
 #### Service call to mutate a ToDo:
 
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMj
-M2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2
-OV19
+eyJoaXN0b3J5IjpbODc1MTk2NzU1LC00MTA3NzA4MDMsNzI3OD
+I1NTkwLDEyMDIzNjIyOTAsLTUxOTI2NDA2LC03OTg4NjQ2NTQs
+LTE4NTcwNzY4NjldfQ==
 -->
