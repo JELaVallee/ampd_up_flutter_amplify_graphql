@@ -139,8 +139,10 @@ mutation{
 ```
 
 ### B.2 Amplify Flutter GraphQL Service Calls 
-#### Service call to query a list the ToDo's:
+#### Amplify SDK imports for Flutter App:
 https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eadae8e1e83ee07696410d124bb21ff/lib/main.dart#L5-L10
+
+#### Service call to query a list the ToDo's:
 
 #### Service call to create a new ToDo:
 
@@ -150,6 +152,6 @@ https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eada
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5OD
-g2NDY1NCwtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbNzI3ODI1NTkwLDEyMDIzNjIyOTAsLTUxOT
+I2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
 -->
