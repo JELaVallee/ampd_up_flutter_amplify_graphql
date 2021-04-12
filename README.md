@@ -1,4 +1,6 @@
-# Welcome to Amp'd Up Flutt
+# Welcome to Amp'd Up Flutter Development with AWS Amplify!
+
+**Please Excuse the WIP while we get things put together...**
 
 
 ## 1. Pre-Requisites: Setting The Stage
@@ -146,5 +148,5 @@ https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eada
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODg5OTI5NywtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
 -->
