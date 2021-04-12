@@ -201,14 +201,51 @@ import 'amplifyconfiguration.dart';
 ```
 
 #### Service call to create a new ToDo:
-https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L110-L136
+**In file [/lib/main.dart : L77-L108](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L110-L136) :**
+
+```dart
+...
+
+  void _addTodoItem(Todo todo) async {
+    try {
+      String gqlMutation =
+          '''mutation CreateTodo(\$name: String!, \$completed: Boolean!){
+            createTodo(input: {name: \$name, completed: \$completed}){
+              id
+              name
+              completed
+            }
+          }''';
+
+
+      var gqlRequest =
+          GraphQLRequest<String>(document: gqlMutation, variables: {
+        "name": todo.name,
+        "completed": todo.isCompleted,
+      });
+
+
+      var operation = Amplify.API.mutate(request: gqlRequest);
+      var response = await operation.response;
+      var data = response.data;
+
+
+      print('Mutation result: ' + data);
+      _updateTodoList();
+    } catch (e) {
+      print(e);
+    }
+  }
+
+...
+```
 
 #### Service call to mutate a ToDo:
 
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1MTk2NzU1LC00MTA3NzA4MDMsNzI3OD
+eyJoaXN0b3J5IjpbMjA4ODMyMDg4LC00MTA3NzA4MDMsNzI3OD
 I1NTkwLDEyMDIzNjIyOTAsLTUxOTI2NDA2LC03OTg4NjQ2NTQs
 LTE4NTcwNzY4NjldfQ==
 -->
