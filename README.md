@@ -241,11 +241,25 @@ import 'amplifyconfiguration.dart';
 ```
 
 #### Service call to mutate a ToDo:
+**In file [/lib/main.dart : ]() :**
+
+```dart
+...
+
+
+...
+```
 
 #### Service call to delete a ToDo:
+**In file [/lib/main.dart : ]() :**
 
+```dart
+...
+
+...
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzIzODAxOSwyMDg4MzIwODgsLTQxMD
-c3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYs
-LTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbNTU0MjM5MTEsMjA4ODMyMDg4LC00MTA3Nz
+A4MDMsNzI3ODI1NTkwLDEyMDIzNjIyOTAsLTUxOTI2NDA2LC03
+OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
 -->
