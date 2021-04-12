@@ -246,7 +246,37 @@ import 'amplifyconfiguration.dart';
 ```dart
 ...
 
+  void _updateTodoItem(Todo todo) async {
+   try {
+      String gqlMutation =
+          '''mutation UpdateTodo(\$id: ID!, \$completed: Boolean){
+        updateTodo(input: {id: \$id, completed: \$completed}){
+          id
+          name
+          completed
+        }
+      }''';
 
+
+      var gqlRequest =
+          GraphQLRequest<String>(document: gqlMutation, variables: {
+        "id": todo.id,
+        "completed": !todo.isCompleted,
+      });
+
+
+      var operation = Amplify.API.mutate(request: gqlRequest);
+      var response = await operation.response;
+      var data = response.data;
+
+
+      print('Mutation result: ' + data);
+      _updateTodoList();
+    } catch (e) {
+      print(e);
+    }
+  }
+  
 ...
 ```
 
@@ -259,7 +289,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg4OTM5MTIsNTU0MjM5MTEsMjA4OD
-MyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkwLDEyMDIzNjIyOTAs
-LTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbMTMxNjc2NTEyMyw1NTQyMzkxMSwyMDg4Mz
+IwODgsLTQxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwt
+NTE5MjY0MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
 -->
