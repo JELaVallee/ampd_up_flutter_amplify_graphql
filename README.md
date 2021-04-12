@@ -150,6 +150,6 @@ https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eada
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NT
-cwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5OD
+g2NDY1NCwtMTg1NzA3Njg2OV19
 -->
