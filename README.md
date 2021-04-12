@@ -1,5 +1,7 @@
 # Welcome to Amp'd Up Flutter Development with AWS Amplify!
 
+![image](https://user-images.githubusercontent.com/4291961/114327253-47b3b200-9b06-11eb-837e-f62b032ff927.png)
+
 **Please excuse the WIP while we get things put together... - @JELaVallee**
 
 
