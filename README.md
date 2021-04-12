@@ -143,10 +143,11 @@ mutation{
 https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eadae8e1e83ee07696410d124bb21ff/lib/main.dart#L5-L10
 
 #### Service call to query a list the ToDo's:
-[/lib/main.dart : L77-L108](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L77-L108)
+**In file [/lib/main.dart : L77-L108](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L77-L108) :**
 
 ```dart
 ...
+
   void _updateTodoList() async {
     try {
       String gqlQuery = '''query{
@@ -181,6 +182,7 @@ https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eada
       print(e);
     }
   }
+  
 ...
 ```
 
@@ -192,7 +194,7 @@ https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eada
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTMzMzg0Niw3Mjc4MjU1OTAsMTIwMj
+eyJoaXN0b3J5IjpbLTkxMzg3MTYxMSw3Mjc4MjU1OTAsMTIwMj
 M2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2
 OV19
 -->
