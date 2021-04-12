@@ -241,7 +241,7 @@ import 'amplifyconfiguration.dart';
 ```
 
 #### Service call to mutate a ToDo:
-**In file [/lib/main.dart : ]() :**
+**In file [/lib/main.dart : L138-L164](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/018ada52e534c0598d3a48fbb643dc31bfc0d4fc/lib/main.dart#L138-L164) :**
 
 ```dart
 ...
@@ -259,7 +259,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0MjM5MTEsMjA4ODMyMDg4LC00MTA3Nz
-A4MDMsNzI3ODI1NTkwLDEyMDIzNjIyOTAsLTUxOTI2NDA2LC03
-OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbLTEwMDg4OTM5MTIsNTU0MjM5MTEsMjA4OD
+MyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkwLDEyMDIzNjIyOTAs
+LTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
 -->
