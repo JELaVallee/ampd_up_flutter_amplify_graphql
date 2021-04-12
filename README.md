@@ -142,7 +142,7 @@ mutation{
 #### Amplify SDK imports for Flutter App:
 **In file [/lib/main.dart : L5-L10](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/caa887c43eadae8e1e83ee07696410d124bb21ff/lib/main.dart#L5-L10) :**
 
-```
+```dart
 ...
 
 // Amplify packages
@@ -208,7 +208,7 @@ import 'amplifyconfiguration.dart';
 #### Service call to delete a ToDo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MDQzNDcwLDcyNzgyNTU5MCwxMjAyMz
-YyMjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5
-XX0=
+eyJoaXN0b3J5IjpbLTQxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMj
+M2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2
+OV19
 -->
