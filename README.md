@@ -71,10 +71,6 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 1. Change the completed state of a ToDo item [GraphQL Snippet](#graphql-query-to-mutate-a-todo)
 1. Delete a ToDo item [GraphQL Snippet](#graphql-query-to-delete-a-todo)
 
-<!-- This section to be in 04-wire-list-todos-api -->
-<!-- This section to be in 05-wire-add-todo-api -->
-<!-- This section to be in 05-wire-change-todo-api -->
-<!-- This section to be in 05-wire-delete-todo-api -->
 ## 5. Code: Integrate the Endpoint... Amp'd Up ToDo's!
 Let's get back to that "boring ToDo App"...
 ### 5.1 Connect the Amplify SDK to our ToDo App
@@ -87,6 +83,10 @@ Let's get back to that "boring ToDo App"...
 	3. Add the `Amplify.API` plugin to the Init logic
 	4. **TODO: Snippet of the Init Code** 
 
+<!-- This section to be in 04-wire-list-todos-api -->
+<!-- This section to be in 05-wire-add-todo-api -->
+<!-- This section to be in 05-wire-change-todo-api -->
+<!-- This section to be in 05-wire-delete-todo-api -->
 ### 5.1 Jammin' with our Amplified GraphQL Service
 1. Wire up the list retrieval GraphQL query
 	1. **TODO Snippet of the getTodoList Code** 
@@ -348,9 +348,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTYzMzExMzksLTEwNTYzNTM0NTQsOT
-E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
-OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
-QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
-MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbMTkwNTc4MDQ2MSwtMTA1NjM1MzQ1NCw5MT
+Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
+ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
+EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
+NiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5XX0=
 -->
