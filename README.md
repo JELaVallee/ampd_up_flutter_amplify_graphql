@@ -104,7 +104,8 @@ Let's get back to that "boring ToDo App"...
 
 ## 5. Coming Soon!
 
-1. Providing Authentication and User Services wit
+1. Providing Authentication and User Services with AWS Cognito serv
+2. Enhancing the ToDo data schema interactively with AWS AppSync's GraphQL API service.
 
 # Addenda
 ## A. References
@@ -351,7 +352,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE4MzE1MzgsLTEwNTYzNTM0NTQsOT
+eyJoaXN0b3J5IjpbLTEzNzA2NjMxMDUsLTEwNTYzNTM0NTQsOT
 E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
 OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
 QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
