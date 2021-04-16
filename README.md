@@ -10,8 +10,9 @@ This repository is designed to be both a quick reference for a bare-bones implem
 If you just want to get the whole working demo project up and running:
 
 1. Be sure to setup your environment!
-2. Clone this repository at `trunk` 
-3. Run the comm
+2. Setup your AWS environment
+3. Clone this repository at `trunk` 
+4. Run the command 
 
 ### 2. Access the guided tutorial
 
@@ -327,9 +328,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIyMjkyNDEsLTExMzQzMTI3NTksLT
-E0NjkyNzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLDU1NDIz
-OTExLDIwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5MCwxMj
-AyMzYyMjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xODU3MDc2
-ODY5XX0=
+eyJoaXN0b3J5IjpbLTQ1NDM3MzU5MiwtMTEzNDMxMjc1OSwtMT
+Q2OTI3MTU4Myw0MDQzMzk4NzgsLTEwOTMwNzM5NTMsNTU0MjM5
+MTEsMjA4ODMyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkwLDEyMD
+IzNjIyOTAsLTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4
+NjldfQ==
 -->
