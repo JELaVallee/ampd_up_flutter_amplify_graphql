@@ -14,7 +14,7 @@ If you just want to get the whole working demo project up and running:
 1. Follow the instructions in [Run the Amplified ToDo App]() 
 
 ### 2. Access the guided tutorial
-
+If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together.
 
 ## 1. Pre-Requisites: Setting The Stage
 1. Overview of Amplify-CLI Installation
@@ -328,9 +328,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY0NTg2MDQsLTExMzQzMTI3NTksLT
-E0NjkyNzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLDU1NDIz
-OTExLDIwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5MCwxMj
-AyMzYyMjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xODU3MDc2
-ODY5XX0=
+eyJoaXN0b3J5IjpbOTE0OTg0MjI1LC0xMTM0MzEyNzU5LC0xND
+Y5MjcxNTgzLDQwNDMzOTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkx
+MSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMj
+M2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2
+OV19
 -->
