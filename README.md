@@ -102,7 +102,9 @@ Let's get back to that "boring ToDo App"...
   1. **TODO: Snippet of the deleteTodo Code**
   2. Demo deleting a ToDo item 
 
-## 6. Review Process
+## 5. Coming Soon!
+
+1. Providing Authentication and User Services wit
 
 # Addenda
 ## A. References
@@ -349,9 +351,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODA1OTYxMCwtMTA1NjM1MzQ1NCw5MT
-Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
-ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
-EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
-NiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5XX0=
+eyJoaXN0b3J5IjpbLTEwMTE4MzE1MzgsLTEwNTYzNTM0NTQsOT
+E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
+OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
+QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
+MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
 -->
