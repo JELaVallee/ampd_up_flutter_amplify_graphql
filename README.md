@@ -10,15 +10,15 @@ This repository is designed to be both a quick reference for a bare-bones implem
 If you just want to get the whole working demo project up and running:
 
 1. Be sure to [Setup Your Environment]()!
-1. Clone this repository at `trunk` 
+1. Clone this repository at branch `trunk` 
 1. Follow the instructions in [Run the Amplified ToDo App]() 
 
 ### 2. Access the guided tutorial
 If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
 
 1. Be sure to [Setup Your Environment]()!
-2. Clone this repository at `01-todo-scaffolding`
-
+2. Clone this repository at branch `01-todo-scaffolding` 
+3. Open the README.md in that branch at 'Step
 
 
 ## 1. Pre-Requisites: Setting The Stage
@@ -333,7 +333,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjQzMTUzMywtMTA1NjM1MzQ1NCw5MT
+eyJoaXN0b3J5IjpbMjExNTkyOTUxMCwtMTA1NjM1MzQ1NCw5MT
 Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
 ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
 EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
