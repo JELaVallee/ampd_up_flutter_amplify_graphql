@@ -61,7 +61,7 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
     1. Drill down to the DynamoDB Console
     1. Show and explain the Dynamo ToDo record set 
 
-<!-- This section to be in 04- -->
+<!-- This section to be in 04-wire-list-todos-api -->
 ## 4. Demo: Talk to GraphQL interface with Altair GraphQL Client
 1. Explain the Altair GraphQL Client interface
     1. Retrieve the GQL Catalog
@@ -71,6 +71,7 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 1. Change the completed state of a ToDo item [GraphQL Snippet](#graphql-query-to-mutate-a-todo)
 1. Delete a ToDo item [GraphQL Snippet](#graphql-query-to-delete-a-todo)
 
+<!-- This section to be in 05-wire-list-todos-api -->
 ## 5. Code: Integrate the Endpoint... Amp'd Up ToDo's!
 Let's get back to that "boring ToDo App"...
 ### 5.1 Connect the Amplify SDK to our ToDo App
@@ -344,7 +345,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjU5MDI0NSwtMTA1NjM1MzQ1NCw5MT
+eyJoaXN0b3J5IjpbMTM1NDE4OTM1MiwtMTA1NjM1MzQ1NCw5MT
 Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
 ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
 EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
