@@ -21,7 +21,9 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
 3. Open the README.md in that branch at [Step 1: The Barebones ToDo App]() **TODO: Link to Section**
 
 ## Getting Started!
-Before we get jamming, let's make sure you're all tune
+Before we get jamming, let's make sure you're all tuned up! To get the most out of this session, you'll need to have a few things working in your environment:
+
+1. The Flutter developer environment setup to your flavor of IDE (I love VSCode, myself):  
 
 
 ## 1. Pre-Requisites: Setting The Stage
@@ -336,7 +338,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDk1NjA5NCwtMTA1NjM1MzQ1NCw5MT
+eyJoaXN0b3J5IjpbMjA1NDk4NDY3NiwtMTA1NjM1MzQ1NCw5MT
 Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
 ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
 EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
