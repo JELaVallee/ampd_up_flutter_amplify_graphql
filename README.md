@@ -18,7 +18,7 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
 
 1. Be sure to [Setup Your Environment]()!
 2. Clone this repository at branch `01-todo-scaffolding` 
-3. Open the README.md in that branch at [Setting The Stage: The Barebones ToDo App]() **TODO: Link to Section**
+3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App]() **TODO: Link to Section**
 
 ## Getting Started!
 Before we get jamming, let's make sure you're all tuned up! To get the most out of this session, you'll need to have a few things working in your environment:
@@ -29,7 +29,8 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 
 
 
-## 1. Setting The Stage: 
+<!-- This section to be in 01-todo-sc -->
+## 1. Setting The Stage: The Bare-bones ToDo App
 1. Overview of the Boring ToDo Flutter App
 1. Demo the Boring ToDo Flutter App 
 
@@ -340,9 +341,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMTEzNzQ2LC0xMDU2MzUzNDU0LDkxND
-k4NDIyNSwtMTEzNDMxMjc1OSwtMTQ2OTI3MTU4Myw0MDQzMzk4
-NzgsLTEwOTMwNzM5NTMsNTU0MjM5MTEsMjA4ODMyMDg4LC00MT
-A3NzA4MDMsNzI3ODI1NTkwLDEyMDIzNjIyOTAsLTUxOTI2NDA2
-LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbLTE1MTA1Nzg0NTQsLTEwNTYzNTM0NTQsOT
+E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
+OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
+QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
+MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
 -->
