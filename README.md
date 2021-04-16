@@ -16,6 +16,10 @@ If you just want to get the whole working demo project up and running:
 ### 2. Access the guided tutorial
 If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
 
+1. Be sure to [Setup Your Environment]()!
+2. Clone this repository at `01-
+
+
 
 ## 1. Pre-Requisites: Setting The Stage
 1. Overview of Amplify-CLI Installation
@@ -329,9 +333,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MjUwMjMsOTE0OTg0MjI1LC0xMTM0Mz
-EyNzU5LC0xNDY5MjcxNTgzLDQwNDMzOTg3OCwtMTA5MzA3Mzk1
-Myw1NTQyMzkxMSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3Mjc4Mj
-U1OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwt
-MTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbLTEwNTYzNTM0NTQsOTE0OTg0MjI1LC0xMT
+M0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMzOTg3OCwtMTA5MzA3
+Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3Mj
+c4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1
+NCwtMTg1NzA3Njg2OV19
 -->
