@@ -9,16 +9,19 @@ This repository is designed to be both a quick reference for a bare-bones implem
 ### 1. Access the completed project 
 If you just want to get the whole working demo project up and running:
 
-1. Be sure to [Setup Your Environment]()!
+1. Be sure to [Setup Your Environment]()! **TODO: Link to Section**
 1. Clone this repository at branch `trunk` 
-1. Follow the instructions in [Run the Amplified ToDo App]() 
+1. Follow the instructions in [Run the Amplified ToDo App]() **TODO: Link to Section**
 
 ### 2. Access the guided tutorial
 If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
 
 1. Be sure to [Setup Your Environment]()!
 2. Clone this repository at branch `01-todo-scaffolding` 
-3. Open the README.md in that branch at [Step 1: The Barebones ToDo App]() **TODO: Link to Section
+3. Open the README.md in that branch at [Step 1: The Barebones ToDo App]() **TODO: Link to Section**
+
+## Getting Started!
+Before we get jamming, let's make sure you're all tune
 
 
 ## 1. Pre-Requisites: Setting The Stage
@@ -333,9 +336,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMDIzOTE4LC0xMDU2MzUzNDU0LDkxND
-k4NDIyNSwtMTEzNDMxMjc1OSwtMTQ2OTI3MTU4Myw0MDQzMzk4
-NzgsLTEwOTMwNzM5NTMsNTU0MjM5MTEsMjA4ODMyMDg4LC00MT
-A3NzA4MDMsNzI3ODI1NTkwLDEyMDIzNjIyOTAsLTUxOTI2NDA2
-LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbLTg1MDk1NjA5NCwtMTA1NjM1MzQ1NCw5MT
+Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
+ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
+EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
+NiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5XX0=
 -->
