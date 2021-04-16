@@ -94,9 +94,11 @@ Let's get back to that "boring ToDo App"...
 ### 4.2 Wire up the change state GraphQL query
   1. **TODO: Snippet of the updateTodoList Code** 
   2. Demo changing the completed state of a ToDo item
+<!-- This section to be in 05-wire-change-todo-api -->
 ### 4.3 Wire up adding a ToDo item
   1. **TODO: Snippet of the insertTodo Code**
   2. Demo adding a ToDo item 
+<!-- This section to be in 05-wire-delete-todo-api -->
 ### 4.4 Wire up deleting a ToDo item
   1. **TODO: Snippet of the deleteTodo Code**
   2. Demo deleting a ToDo item 
@@ -348,9 +350,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI4NDY0MDMsLTEwNTYzNTM0NTQsOT
-E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
-OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
-QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
-MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbLTEwMjk2MDkwMiwtMTA1NjM1MzQ1NCw5MT
+Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
+ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
+EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
+NiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5XX0=
 -->
