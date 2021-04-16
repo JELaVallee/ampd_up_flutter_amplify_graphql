@@ -17,7 +17,7 @@ If you just want to get the whole working demo project up and running:
 If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
 
 1. Be sure to [Setup Your Environment]()!
-2. Clone this repository at `01-
+2. Clone this repository at `01-todo-scaffolding`
 
 
 
@@ -333,9 +333,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTYzNTM0NTQsOTE0OTg0MjI1LC0xMT
-M0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMzOTg3OCwtMTA5MzA3
-Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3Mj
-c4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1
-NCwtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbMTAwNjQzMTUzMywtMTA1NjM1MzQ1NCw5MT
+Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
+ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
+EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
+NiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5XX0=
 -->
