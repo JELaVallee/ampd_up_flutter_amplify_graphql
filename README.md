@@ -6,26 +6,26 @@
 ## Overview
 This repository is designed to be both a quick reference for a bare-bones implementation of Flutter and AWS Amplify _as well as_ a functional tutorial for turning a static stateful Flutter app into one backed with AWS Amplify provisioned services.
 
-### 1. Access the completed project 
-If you just want to get the whole working demo project up and running:
-
-1. Be sure to [Setup Your Environment]()! **TODO: Link to Section**
-1. Clone this repository at branch `trunk` 
-1. Follow the instructions in [Run the Amplified ToDo App]() **TODO: Link to Section**
-
-### 2. Access the guided tutorial
-If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
-
-1. Be sure to [Setup Your Environment]()!
-2. Clone this repository at branch `01-todo-scaffolding` 
-3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App]() **TODO: Link to Section**
-
 ## Getting Started!
 Before we get jamming, let's make sure you're all tuned up! To get the most out of this session, you'll need to have a few things working in your environment:
 
 1. The Flutter developer environment setup to your flavor of IDE (I love VSCode, myself): [Getting Started with Flutter](https://flutter.dev/docs/get-started/install) 
 2. An Amazon AWS account that you have root-access to: [Amazon AWS: Sign-up](https://portal.aws.amazon.com/billing/signup#/start)
 3. The AWS Amplify CLI tooling installed on your system: [AWS Amplify CLI: Installation](https://docs.amplify.aws/cli/start/install)
+
+### A. Access the completed project 
+If you just want to get the whole working demo project up and running:
+
+1. Be sure to [Setup Your Environment]()! **TODO: Link to Section**
+1. Clone this repository at branch `trunk` 
+1. Follow the instructions in [Run the Amplified ToDo App]() **TODO: Link to Section**
+
+### B. Access the guided tutorial
+If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
+
+1. Be sure to [Setup Your Environment]()!
+2. Clone this repository at branch `01-todo-scaffolding` 
+3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App]() **TODO: Link to Section**
 
 
 
@@ -354,9 +354,10 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE1NzI4ODEsLTEwNTYzNTM0NTQsOT
-E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
-OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
-QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
-MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbMTIwOTk4NjAzOSwtMjA3MTU3Mjg4MSwtMT
+A1NjM1MzQ1NCw5MTQ5ODQyMjUsLTExMzQzMTI3NTksLTE0Njky
+NzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLD
+IwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYy
+MjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5XX
+0=
 -->
