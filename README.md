@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/4291961/114327253-47b3b200-9b06-11eb-837e-f62b032ff927.png)
 
 **Please excuse the WIP while we get things put together... - @JELaVallee**
--   [01-todo-scaffolding](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/tree/01-todo-scaffolding)
+
 
 ## 1. Pre-Requisites: Setting The Stage
 1. Overview of Amplify-CLI Installation
@@ -317,8 +317,8 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTEyOTY0NDAsNDA0MzM5ODc4LC0xMD
-kzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtNDEwNzcwODAz
-LDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQwNiwtNzk4OD
-Y0NjU0LC0xODU3MDc2ODY5XX0=
+eyJoaXN0b3J5IjpbNDA0MzM5ODc4LDQwNDMzOTg3OCwtMTA5Mz
+A3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3
+Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5ODg2ND
+Y1NCwtMTg1NzA3Njg2OV19
 -->
