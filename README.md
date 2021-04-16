@@ -16,7 +16,7 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 ### A. Access the completed project 
 If you just want to get the whole working demo project up and running:
 
-1. Be sure to [Setup Your Environment]()! **TODO: Link to Section**
+1. Be sure to [Setup Your Environment](#getting-started)!
 1. Clone this repository at branch `trunk` 
 1. Follow the instructions in [Run the Amplified ToDo App]() **TODO: Link to Section**
 
@@ -354,7 +354,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTk4NjAzOSwtMjA3MTU3Mjg4MSwtMT
+eyJoaXN0b3J5IjpbMTUzNTkzOTg1OCwtMjA3MTU3Mjg4MSwtMT
 A1NjM1MzQ1NCw5MTQ5ODQyMjUsLTExMzQzMTI3NTksLTE0Njky
 NzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLD
 IwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYy
