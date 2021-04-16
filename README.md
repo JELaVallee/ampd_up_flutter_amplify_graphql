@@ -46,7 +46,7 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
     1. Show the command `amplify status` output 
 1. Add the `Amplify.init()` to main.dart initialization
     1. **TODO: Explain why...** 
-3. **Next Step:** 
+1. **Next Step:** 
 	1. Checkout the branch `03-amplify-add-api` 
 	2. Open the README.md in that branch at [3. "Amplifying" our ToDo App]() 
 **TODO: Link to Section**
@@ -90,6 +90,10 @@ Let's get back to that "boring ToDo App"...
 	2. **TODO: Snippet of the import Code**
 	3. Add the `Amplify.API` plugin to the Init logic
 	4. **TODO: Snippet of the Init Code** 
+1. **Next Step:** 
+	1. Checkout the branch `04-01-amplify-add-api` 
+	2. Open the README.md in that branch at [4. "Jammin' with our Amplified GraphQL Service]() 
+**TODO: Link to Section**
 
 ## 4. Jammin' with our Amplified GraphQL Service
 <!-- This section to be in 04-01-wire-list-todos-api -->
@@ -362,10 +366,10 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5NTU3NDA5LDU4MjU4NjE3MywtMjA3MT
-U3Mjg4MSwtMTA1NjM1MzQ1NCw5MTQ5ODQyMjUsLTExMzQzMTI3
-NTksLTE0NjkyNzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLD
-U1NDIzOTExLDIwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5
-MCwxMjAyMzYyMjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xOD
-U3MDc2ODY5XX0=
+eyJoaXN0b3J5IjpbLTg4NTM0NjI3NSw1ODI1ODYxNzMsLTIwNz
+E1NzI4ODEsLTEwNTYzNTM0NTQsOTE0OTg0MjI1LC0xMTM0MzEy
+NzU5LC0xNDY5MjcxNTgzLDQwNDMzOTg3OCwtMTA5MzA3Mzk1My
+w1NTQyMzkxMSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3Mjc4MjU1
+OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwtMT
+g1NzA3Njg2OV19
 -->
