@@ -83,22 +83,21 @@ Let's get back to that "boring ToDo App"...
 	3. Add the `Amplify.API` plugin to the Init logic
 	4. **TODO: Snippet of the Init Code** 
 
-<!-- This section to be in 04-wire-list-todos-api -->
-
 ## 4. Jammin' with our Amplified GraphQL Service
+<!-- This section to be in 04-01-wire-list-todos-api -->
 ### 4.1 Wire up the list retrieval GraphQL query
   1. **TODO Snippet of the getTodoList Code** 
   2. Run the app: `flutter run -d {device-name}`
   3. Add a new ToDo item via Altair GraphQL Client and then refresh in the ToDo App
-<!-- This section to be in 05-wire-add-todo-api -->
+<!-- This section to be in 04-02-wire-add-todo-api -->
 ### 4.2 Wire up the change state GraphQL query
   1. **TODO: Snippet of the updateTodoList Code** 
   2. Demo changing the completed state of a ToDo item
-<!-- This section to be in 05-wire-change-todo-api -->
+<!-- This section to be in 04-03-wire-change-todo-api -->
 ### 4.3 Wire up adding a ToDo item
   1. **TODO: Snippet of the insertTodo Code**
   2. Demo adding a ToDo item 
-<!-- This section to be in 05-wire-delete-todo-api -->
+<!-- This section to be in 04-05-wire-delete-todo-api -->
 ### 4.4 Wire up deleting a ToDo item
   1. **TODO: Snippet of the deleteTodo Code**
   2. Demo deleting a ToDo item 
@@ -350,7 +349,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk2MDkwMiwtMTA1NjM1MzQ1NCw5MT
+eyJoaXN0b3J5IjpbLTkwODA1OTYxMCwtMTA1NjM1MzQ1NCw5MT
 Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
 ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
 EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
