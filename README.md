@@ -24,7 +24,8 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
 Before we get jamming, let's make sure you're all tuned up! To get the most out of this session, you'll need to have a few things working in your environment:
 
 1. The Flutter developer environment setup to your flavor of IDE (I love VSCode, myself): [Getting Started with Flutter](https://flutter.dev/docs/get-started/install) 
-1. An Amazon AWS account that you have root-access to: 
+2. An Amazon AWS account that you have root-access to: [Amazon AWS: Sign-up](https://portal.aws.amazon.com/billing/signup#/start)
+3. The AWS Amplify CLI tooling installed on your system: 
 
 ## 1. Pre-Requisites: Setting The Stage
 1. Overview of Amplify-CLI Installation
@@ -338,7 +339,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA2MTMzODksLTEwNTYzNTM0NTQsOT
+eyJoaXN0b3J5IjpbLTEyMTQ3MDA0NjUsLTEwNTYzNTM0NTQsOT
 E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
 OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
 QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
