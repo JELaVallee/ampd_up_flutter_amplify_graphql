@@ -6,9 +6,10 @@
 ## Overview
 This repository is designed to be both a quick reference for a bare-bones implementation of Flutter and AWS Amplify _as well as_ a functional tutorial for turning a static stateful Flutter app into one backed with AWS Amplify provisioned services.
 
-There ar
-
 ### 1. Access the completed project 
+If you just want to get the whole working demo project up and running, 
+
+### 2. Access the guided tutorial
 
 ## 1. Pre-Requisites: Setting The Stage
 1. Overview of Amplify-CLI Installation
@@ -322,7 +323,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzUxNzc4OCwtMTEzNDMxMjc1OSwtMT
+eyJoaXN0b3J5IjpbMTQ4NjUwNDYwMCwtMTEzNDMxMjc1OSwtMT
 Q2OTI3MTU4Myw0MDQzMzk4NzgsLTEwOTMwNzM5NTMsNTU0MjM5
 MTEsMjA4ODMyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkwLDEyMD
 IzNjIyOTAsLTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4
