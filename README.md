@@ -15,6 +15,7 @@ If you just want to get the whole working demo project up and running:
 
 ### 2. Access the guided tutorial
 
+
 ## 1. Pre-Requisites: Setting The Stage
 1. Overview of Amplify-CLI Installation
 1. Overview of the Boring ToDo Flutter App
@@ -327,9 +328,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTYwODcwNiwtMTEzNDMxMjc1OSwtMT
-Q2OTI3MTU4Myw0MDQzMzk4NzgsLTEwOTMwNzM5NTMsNTU0MjM5
-MTEsMjA4ODMyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkwLDEyMD
-IzNjIyOTAsLTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4
-NjldfQ==
+eyJoaXN0b3J5IjpbLTE1NjY0NTg2MDQsLTExMzQzMTI3NTksLT
+E0NjkyNzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLDU1NDIz
+OTExLDIwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5MCwxMj
+AyMzYyMjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xODU3MDc2
+ODY5XX0=
 -->
