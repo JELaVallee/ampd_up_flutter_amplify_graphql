@@ -33,8 +33,9 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
 ## 1. Setting The Stage: The Bare-bones ToDo App
 1. Overview of the Boring ToDo Flutter App
 2. Demo the Boring ToDo Flutter App 
-3. Next Step: checkout the branch `02-amplify-init` 
-4. Open the README.md in that branch at [2. Configure: Initialize Amplify]() 
+3. **Next Step:** 
+	1. Checkout the branch `02-amplify-init` 
+	2. Open the README.md in that branch at [2. Configure: Initialize Amplify]() 
 **TODO: Link to Section**
 
 <!-- This section to be in 02-amplify-init -->
@@ -45,9 +46,13 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
     1. Show the command `amplify status` output 
 1. Add the `Amplify.init()` to main.dart initialization
     1. **TODO: Explain why...** 
+3. **Next Step:** 
+	1. Checkout the branch `03-amplify-add-api` 
+	2. Open the README.md in that branch at [3. "Amplifying" our ToDo App]() 
+**TODO: Link to Section**
 
 <!-- This section to be in 03-amplify-add-api -->
-## 3. "Amplifying "our ToDo App
+## 3. "Amplifying" our ToDo App
 ### 3.1 Scaffold: Create The GraphQL API Endpoint
 1. Run command `amplify add api` and set it up for a GraphQL-Todo schema
 1. Explain what happened...
@@ -357,7 +362,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNzI5NTM5LDU4MjU4NjE3MywtMjA3MT
+eyJoaXN0b3J5IjpbNDA5NTU3NDA5LDU4MjU4NjE3MywtMjA3MT
 U3Mjg4MSwtMTA1NjM1MzQ1NCw5MTQ5ODQyMjUsLTExMzQzMTI3
 NTksLTE0NjkyNzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLD
 U1NDIzOTExLDIwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5
