@@ -29,11 +29,12 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 
 
 
-<!-- This section to be in 01-todo-sc -->
+<!-- This section to be in 01-todo-scaffolding -->
 ## 1. Setting The Stage: The Bare-bones ToDo App
 1. Overview of the Boring ToDo Flutter App
 1. Demo the Boring ToDo Flutter App 
 
+<!-- This section to be in 02-amplify-init -->
 ## 2. Configure: Initialize Amplify
 1. Run command `amplify init`...
 1. Explain what happened...
@@ -42,6 +43,7 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 1. Add the `Amplify.init()` to main.dart initialization
     1. **TODO: Explain why...** 
 
+<!-- This section to be in 03-amplify-add-api -->
 ## 3. Scaffold: Create The GraphQL API Endpoint
 1. Run command `amplify add api` and set it up for a GraphQL-Todo schema
 1. Explain what happened...
@@ -59,6 +61,7 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
     1. Drill down to the DynamoDB Console
     1. Show and explain the Dynamo ToDo record set 
 
+<!-- This section to be in 04- -->
 ## 4. Demo: Talk to GraphQL interface with Altair GraphQL Client
 1. Explain the Altair GraphQL Client interface
     1. Retrieve the GQL Catalog
@@ -341,9 +344,9 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA1Nzg0NTQsLTEwNTYzNTM0NTQsOT
-E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
-OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
-QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
-MDYsLTc5ODg2NDY1NCwtMTg1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbLTk5MjU5MDI0NSwtMTA1NjM1MzQ1NCw5MT
+Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
+ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
+EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
+NiwtNzk4ODY0NjU0LC0xODU3MDc2ODY5XX0=
 -->
