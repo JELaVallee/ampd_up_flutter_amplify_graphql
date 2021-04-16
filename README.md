@@ -103,8 +103,9 @@ Let's get back to that "boring ToDo App"...
   3. Add a new ToDo item via Altair GraphQL Client and then refresh in the ToDo App
 <!-- This section to be in 04-02-wire-add-todo-api -->
 ### 4.2 Wire up the change state GraphQL query
-  1. **TODO: Snippet of the updateTodoList Code** 
-  2. Demo changing the completed state of a ToDo item
+  1. Checkout the branch 
+  2. **TODO: Snippet of the updateTodoList Code** 
+  3. Demo changing the completed state of a ToDo item
 <!-- This section to be in 04-03-wire-change-todo-api -->
 ### 4.3 Wire up adding a ToDo item
   1. **TODO: Snippet of the insertTodo Code**
@@ -366,10 +367,10 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTM0NjI3NSw1ODI1ODYxNzMsLTIwNz
-E1NzI4ODEsLTEwNTYzNTM0NTQsOTE0OTg0MjI1LC0xMTM0MzEy
-NzU5LC0xNDY5MjcxNTgzLDQwNDMzOTg3OCwtMTA5MzA3Mzk1My
-w1NTQyMzkxMSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3Mjc4MjU1
-OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwtMT
-g1NzA3Njg2OV19
+eyJoaXN0b3J5IjpbODE2MTMyMDc3LDU4MjU4NjE3MywtMjA3MT
+U3Mjg4MSwtMTA1NjM1MzQ1NCw5MTQ5ODQyMjUsLTExMzQzMTI3
+NTksLTE0NjkyNzE1ODMsNDA0MzM5ODc4LC0xMDkzMDczOTUzLD
+U1NDIzOTExLDIwODgzMjA4OCwtNDEwNzcwODAzLDcyNzgyNTU5
+MCwxMjAyMzYyMjkwLC01MTkyNjQwNiwtNzk4ODY0NjU0LC0xOD
+U3MDc2ODY5XX0=
 -->
