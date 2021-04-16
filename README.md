@@ -83,6 +83,7 @@ Let's get back to that "boring ToDo App"...
 	- AWS DynamoDB: [AWS Docs - Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) | [AWS Docs - API Ref ](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/Welcome.html)
 2. **GraphQL Resources & Tools**
 	- GraphQL Reference & Community Home: https://graphql.org/
+	- GraphQL SQL Resolver Tutorial: (https://www.serverless.com/blog/graphql-api-mysql-postgres-aurora
 	- Altair GraphQL Client Chrome Extension: [Chrome Store](https://chrome.google.com/webstore/detail/altair-graphql-client/)
 	- `graphql-flutter` 100% Dart Based GraphQL Client: [GitHub](https://github.com/zino-app/graphql-flutter) | [pub.dev](https://pub.dev/packages/graphql_flutter)
 
@@ -316,7 +317,8 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMwNzM5NTMsNTU0MjM5MTEsMjA4OD
-MyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkwLDEyMDIzNjIyOTAs
-LTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ==
+eyJoaXN0b3J5IjpbLTE2MzI4NzA3NjIsLTEwOTMwNzM5NTMsNT
+U0MjM5MTEsMjA4ODMyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkw
+LDEyMDIzNjIyOTAsLTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NT
+cwNzY4NjldfQ==
 -->
