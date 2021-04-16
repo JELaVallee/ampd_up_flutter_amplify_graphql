@@ -32,7 +32,9 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
 <!-- This section to be in 01-todo-scaffolding -->
 ## 1. Setting The Stage: The Bare-bones ToDo App
 1. Overview of the Boring ToDo Flutter App
-1. Demo the Boring ToDo Flutter App 
+2. Demo the Boring ToDo Flutter App 
+3. Next Step: checkout the branch `02-amplify-init` 
+4. 
 
 <!-- This section to be in 02-amplify-init -->
 ## 2. Configure: Initialize Amplify
@@ -354,10 +356,10 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyNTg2MTczLC0yMDcxNTcyODgxLC0xMD
-U2MzUzNDU0LDkxNDk4NDIyNSwtMTEzNDMxMjc1OSwtMTQ2OTI3
-MTU4Myw0MDQzMzk4NzgsLTEwOTMwNzM5NTMsNTU0MjM5MTEsMj
-A4ODMyMDg4LC00MTA3NzA4MDMsNzI3ODI1NTkwLDEyMDIzNjIy
-OTAsLTUxOTI2NDA2LC03OTg4NjQ2NTQsLTE4NTcwNzY4NjldfQ
-==
+eyJoaXN0b3J5IjpbLTUxMzA1ODAzNyw1ODI1ODYxNzMsLTIwNz
+E1NzI4ODEsLTEwNTYzNTM0NTQsOTE0OTg0MjI1LC0xMTM0MzEy
+NzU5LC0xNDY5MjcxNTgzLDQwNDMzOTg3OCwtMTA5MzA3Mzk1My
+w1NTQyMzkxMSwyMDg4MzIwODgsLTQxMDc3MDgwMyw3Mjc4MjU1
+OTAsMTIwMjM2MjI5MCwtNTE5MjY0MDYsLTc5ODg2NDY1NCwtMT
+g1NzA3Njg2OV19
 -->
