@@ -88,15 +88,15 @@ Let's get back to that "boring ToDo App"...
 <!-- This section to be in 05-wire-change-todo-api -->
 <!-- This section to be in 05-wire-delete-todo-api -->
 ## 4. Jammin' with our Amplified GraphQL Service
-1. Wire up the list retrieval GraphQL query
-	1. **TODO Snippet of the getTodoList Code** 
-	2. Run the app: `flutter run -d {device-name}`
-	3. Add a new ToDo item via Altair GraphQL Client and then refresh in the ToDo App
-2. Wire up the change state GraphQL query
-    1. **TODO: Snippet of the updateTodoList Code** 
-3. Demo changing the completed state of a ToDo item
-4. Wire up adding a ToDo item
-    1. **TODO: Snippet of the insertTodo Code**
+### 4.1 Wire up the list retrieval GraphQL query
+  1. **TODO Snippet of the getTodoList Code** 
+  2. Run the app: `flutter run -d {device-name}`
+  3. Add a new ToDo item via Altair GraphQL Client and then refresh in the ToDo App
+### 4.2 Wire up the change state GraphQL query
+  1. **TODO: Snippet of the updateTodoList Code** 
+  2. Demo changing the completed state of a ToDo item
+  3. Wire up adding a ToDo item
+     1. **TODO: Snippet of the insertTodo Code**
 5. Demo adding a ToDo item 
 6. Wire up deleting a ToDo item
     1. **TODO: Snippet of the deleteTodo Code**
@@ -348,7 +348,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjAwMDQwMjAsLTEwNTYzNTM0NTQsOT
+eyJoaXN0b3J5IjpbLTE4MjI0OTc1NDAsLTEwNTYzNTM0NTQsOT
 E0OTg0MjI1LC0xMTM0MzEyNzU5LC0xNDY5MjcxNTgzLDQwNDMz
 OTg3OCwtMTA5MzA3Mzk1Myw1NTQyMzkxMSwyMDg4MzIwODgsLT
 QxMDc3MDgwMyw3Mjc4MjU1OTAsMTIwMjM2MjI5MCwtNTE5MjY0
