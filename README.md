@@ -44,7 +44,8 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
     1. **TODO: Explain why...** 
 
 <!-- This section to be in 03-amplify-add-api -->
-## 3. Scaffold: Create The GraphQL API Endpoint
+## 3. "Amplifying "our ToDo App
+### 3.1 Scaffold: Create The GraphQL API Endpoint
 1. Run command `amplify add api` and set it up for a GraphQL-Todo schema
 1. Explain what happened...
     1. Show the generated ToDo Schema artifacts
@@ -62,7 +63,7 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
     1. Show and explain the Dynamo ToDo record set 
 
 
-## 4. Demo: Talk to GraphQL interface with Altair GraphQL Client
+### 3.2 Demo: Talk to GraphQL interface with Altair GraphQL Client
 1. Explain the Altair GraphQL Client interface
     1. Retrieve the GQL Catalog
     1. Explain the various Schema interfaces that were returned 
@@ -348,7 +349,7 @@ import 'amplifyconfiguration.dart';
 ...
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTc4MDQ2MSwtMTA1NjM1MzQ1NCw5MT
+eyJoaXN0b3J5IjpbLTY5OTQ3MzQ1NywtMTA1NjM1MzQ1NCw5MT
 Q5ODQyMjUsLTExMzQzMTI3NTksLTE0NjkyNzE1ODMsNDA0MzM5
 ODc4LC0xMDkzMDczOTUzLDU1NDIzOTExLDIwODgzMjA4OCwtND
 EwNzcwODAzLDcyNzgyNTU5MCwxMjAyMzYyMjkwLC01MTkyNjQw
