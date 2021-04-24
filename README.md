@@ -12,4 +12,3 @@ This repository is designed to be both a quick reference for a bare-bones implem
 3. **Next Step:**
 	1. Checkout the branch `02-amplify-init`
 	2. Open the README.md in that branch at [2. Configure: Initialize Amplify](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/02-amplify-init/README.md#2-configure-initialize-amplify)
-**TODO: Link to Section**
