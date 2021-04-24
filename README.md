@@ -12,5 +12,5 @@
     1. **TODO: Explain why...**
 1. **Next Step:**
 	1. Checkout the branch `03-amplify-add-api`
-	2. Open the README.md in that branch at [3. "Amplifying" our ToDo App]()
-**TODO: Link to Section**
+	2. Open the README.md in that branch at [3. "Amplifying" our ToDo App](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/03-amplify-add-api/README.md#3-amplifying-our-todo-app)
+
