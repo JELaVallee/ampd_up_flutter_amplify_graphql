@@ -88,7 +88,7 @@ class TodoListState extends State<TodoWidget> {
         title: 'Todo App',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.amber,
+          primarySwatch: Colors.blueGrey,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         initialRoute: "/",
