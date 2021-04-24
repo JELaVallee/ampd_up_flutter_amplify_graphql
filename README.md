@@ -25,7 +25,7 @@ If you would prefer to walk through the tutorial exercise step-by-step to learn 
 
 1. Be sure to [Setup Your Environment](#getting-started)!
 2. Clone this repository at branch `01-todo-scaffolding` 
-3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App]() **TODO: Link to Section**
+3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/01-todo-scaffolding/README.md#1-setting-the-stage-the-bare-bones-todo-app) **TODO: Link to Section**
 
 
 ## Coming Soon...
