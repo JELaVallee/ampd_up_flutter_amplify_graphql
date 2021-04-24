@@ -44,5 +44,4 @@ Let's get back to that "boring ToDo App"...
 	4. **TODO: Snippet of the Init Code**
 1. **Next Step:**
 	1. Checkout the branch `04-01-amplify-add-api`
-	2. Open the README.md in that branch at [4. "Jammin' with our Amplified GraphQL Service]()
-**TODO: Link to Section**
+	2. Open the README.md in that branch at [4. "Jammin' with our Amplified GraphQL Service](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/04-wire-list-todos-api/README.md#4-jammin-with-our-amplified-graphql-service)
