@@ -15,11 +15,11 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 (Note: When following the Amplify CLI setup instructions, be sure to copy the AccessKeyID/SecretKey for the user account you created for running Amplify as documented [here](https://docs.amplify.aws/lib/project-setup/prereq/q/platform/flutter#sign-up-for-an-aws-account) )
 
 ### Start the guided tutorial
-If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
+This tutorial works by checking out subsequent branches from this repository. To get started, clone this repo and then follow these instructions:
 
 1. Be sure to [Setup Your Environment](#getting-started)!
-2. Clone this repository at branch `01-todo-scaffolding` 
-3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/01-todo-scaffolding/README.md#1-setting-the-stage-the-bare-bones-todo-app)
+2. Check-out the branch `01-todo-scaffolding` 
+3. Open the README.md in that branch... Click here: [1. Setting The Stage: The Bare-bones ToDo App](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/01-todo-scaffolding/README.md#1-setting-the-stage-the-bare-bones-todo-app)
 
 
 ## Coming Soon...
