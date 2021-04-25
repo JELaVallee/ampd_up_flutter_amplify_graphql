@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/4291961/114327253-47b3b200-9b06-11eb-837e-f62b032ff927.png)
 
-**Please excuse the WIP while we get things put together... - @JELaVallee**
 ## Overview
 This repository is designed to be both a quick reference for a bare-bones implementation of Flutter and AWS Amplify _as well as_ a functional tutorial for turning a static stateful Flutter app into one backed with AWS Amplify provisioned services.
 
@@ -13,19 +12,14 @@ Before we get jamming, let's make sure you're all tuned up! To get the most out 
 2. An Amazon AWS account that you have root-access to: [Amazon AWS: Sign-up](https://portal.aws.amazon.com/billing/signup#/start)
 3. The AWS Amplify CLI tooling installed on your system: [AWS Amplify CLI: Installation](https://docs.amplify.aws/cli/start/install)
 
-### A. Access the completed project 
-If you just want to get the whole working demo project up and running:
+(Note: When following the Amplify CLI setup instructions, be sure to copy the AccessKeyID/SecretKey for the user account you created for running Amplify as documented [here](https://docs.amplify.aws/lib/project-setup/prereq/q/platform/flutter#sign-up-for-an-aws-account) )
 
-1. Be sure to [Setup Your Environment](#getting-started)!
-1. Clone this repository at branch `trunk` 
-1. Follow the instructions in [Run the Amplified ToDo App]() **TODO: Link to Section**
-
-### B. Access the guided tutorial
+### Start the guided tutorial
 If you would prefer to walk through the tutorial exercise step-by-step to learn how all the pieces fit together:
 
 1. Be sure to [Setup Your Environment](#getting-started)!
 2. Clone this repository at branch `01-todo-scaffolding` 
-3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/01-todo-scaffolding/README.md#1-setting-the-stage-the-bare-bones-todo-app) **TODO: Link to Section**
+3. Open the README.md in that branch at [1. Setting The Stage: The Bare-bones ToDo App](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/01-todo-scaffolding/README.md#1-setting-the-stage-the-bare-bones-todo-app)
 
 
 ## Coming Soon...
