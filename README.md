@@ -356,5 +356,5 @@ I/flutter ( 9374): Amplify successfully configured!!!
 Outstanding! The Amplify Flutter SDK is ready to start talking with our new back-end service... Let's give it a spin!
 
 ### 3.7. Next Step...
-1. Checkout the branch `04-01-amplify-add-api`
+1. Checkout the branch `04-wire-list-todos-api`
 2. Open the README.md in that branch at [4. "Jammin' with our Amplified GraphQL Service](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/04-wire-list-todos-api/README.md#4-jammin-with-our-amplified-graphql-service)
