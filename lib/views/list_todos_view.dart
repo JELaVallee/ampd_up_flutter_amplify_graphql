@@ -21,7 +21,7 @@ class ListTodosView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Todo List'),
+        title: Text('Amp\'d Up Todo List'),
         actions: <Widget>[
           IconButton(
             icon: const Icon(Icons.refresh_rounded),
