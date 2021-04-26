@@ -5,6 +5,8 @@
 ## Overview
 This repository is designed to be both a quick reference for a bare-bones implementation of Flutter and AWS Amplify _as well as_ a functional tutorial for turning a static stateful Flutter app into one backed with AWS Amplify provisioned services.
 
+This tutorial was presented at the DC Dev Community Flutter Meetup on April 26, 2021. Come back soon for the YouTube link for the full presentation!
+
 ## Getting Started!
 Before we get jamming, let's make sure you're all tuned up! To get the most out of this session, you'll need to have a few things working in your environment:
 
