@@ -21,6 +21,7 @@ This tutorial works by checking out subsequent branches from this repository. To
 2. Check-out the branch `01-todo-scaffolding` 
 3. Open the README.md in that branch... Click here: [1. Setting The Stage: The Bare-bones ToDo App](https://github.com/JELaVallee/ampd_up_flutter_amplify_graphql/blob/01-todo-scaffolding/README.md#1-setting-the-stage-the-bare-bones-todo-app)
 
+If you're more of a visual-learner or would like to see this tutorial in-action, check out the [video of the Demo Walk-Through](https://drive.google.com/file/d/10M31SingxWaT11Y_w6T7SjzL6p6fFcrA/view?usp=sharing)
 
 ## Coming Soon...
 If you've enjoyed this demo, then stay tuned! We'll be adding other Amp'd Up service examples, including:
